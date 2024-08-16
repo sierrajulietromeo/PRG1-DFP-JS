@@ -33,7 +33,7 @@ calling arguments if a different input file with a different delimiter is provid
 
 ### Note, the above list may seem overwhelming at first. You must decompose the problem and tackle small parts of it one by one to succeed.
 
-Evidence of testing is expected. You should test your solution by making sufficient calls to your function(s) so that you are positive that it works as expected. These should be left at the bottom of ```dfp.js``` **commented out**. 
+You should test your solution yourself by making your own sufficient calls to your function(s) so that you are positive that it works as expected, regardless of the included tests.
 
 Your final version should demonstrate evidence of being refactored; please note, refactoring is not bug-fixing - essentially it is reducing complexity and simplifying your codebase such that it is as efficient, readable, structured and as manageable as possible.
 
@@ -58,4 +58,3 @@ Prior to actually submitting your final attempt you should ensure you have revie
 
   1. Refactored ```parseFile``` function.
   2. Does your solution follow accepted coding conventions?
-  3. Your 'test' code, commented out at the bottom of ```dfp.js```
