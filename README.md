@@ -1,7 +1,6 @@
 # Task 2 - Data File Parser
 
-* Create a single function. The function must be capable of 'parsing' a UTF-8 encoded, plain text
-formatted file (see ```datafile.csv``` in the left-hand-side pane, semi-colon delimited).
+* You have been given the skeleton for a function called `parsefile`. The function must be capable of 'parsing' a UTF-8 encoded, plain text formatted file (see ```datafile.csv``` in the left-hand-side pane, semi-colon delimited). 
 
 * The function expects three parameters, two mandatory (the source ‘input’ file location and the
 exported ‘output’ file location), and an optional ‘delimiter’ with a semicolon default value.
@@ -36,6 +35,8 @@ calling arguments if a different input file with a different delimiter is provid
 You should test your solution yourself by making your own sufficient calls to your function(s) so that you are positive that it works as expected, regardless of the included tests.
 
 Your final version should demonstrate evidence of being refactored; please note, refactoring is not bug-fixing - essentially it is reducing complexity and simplifying your codebase such that it is as efficient, readable, structured and as manageable as possible.
+
+Should you wish to refactor your solution into multiple smaller functions you may do so.
 
 Some example calls to the function:
 
