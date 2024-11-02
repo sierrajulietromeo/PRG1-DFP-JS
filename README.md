@@ -17,7 +17,8 @@ You are developing an application for a travel agency that wants to display a co
     *  Check if an output file already exists. If it does, delete it.
     *  Read the CSV file at `inputFilePath` using the specified `delimiter`.
     *  For each holiday package, extract the `holiday_id`, `destination`, `description` and `price`.
-    *  Trim whitespace and truncate the `description` to `maxDescriptionLength` characters, adding an ellipsis (...) to the end if it was truncated.
+    *  Trim whitespace from the `destination` and `description` 
+    *  Truncate the `description` to `maxDescriptionLength` characters, adding an ellipsis (...) to the end if it was truncated.
     *  Re-order the columns to be: `holiday_id`, `price`, `destination`, and truncated `description`.
     *  Write the processed data to a new CSV file at `outputFilePath` using the specified `delimiter`.
 
@@ -46,5 +47,5 @@ parseFile('./missing_file.csv', './simplified_catalogue.csv', 30); // Returns -1
 
 * Use no additional libraries or modules other than what is provided in the skeleton code.
 * Your function should ignore (do not export) any header information (the first row).
-* The main function can carry out all the tasks if required, or the problem can be decomposed into smaller single-responsibility functions.
+* The problem can be decomposed into smaller single-responsibility functions if you wish.
 * Your final version should demonstrate evidence of being refactored; please note, refactoring is not bug-fixing - essentially it is reducing complexity and simplifying your codebase such that it is as efficient, readable, structured and as manageable as possible.
