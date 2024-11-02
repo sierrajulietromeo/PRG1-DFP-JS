@@ -1,12 +1,10 @@
 const fs = require('fs');
 
-function parseFile (indata, outdata, delimiter = ';') {
-
+function parseFile(inputFilePath, outputFilePath, maxDescriptionLength, delimiter = ",") {
+  // TODO: Implement the function logic here
 }
 
 
-
-  
 
 
 
